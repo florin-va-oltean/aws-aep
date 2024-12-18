@@ -213,9 +213,6 @@
         <mxCell id="sy5VLaExMFTQh7F5YBlJ-13" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" parent="S0VbNr_1chNx2PSHg-j4-1" vertex="1">
           <mxGeometry x="35.5" y="275" width="46" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="W3o0Zmi8gkVjgeGDkJtw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="S0VbNr_1chNx2PSHg-j4-1" source="S0VbNr_1chNx2PSHg-j4-19" target="S0VbNr_1chNx2PSHg-j4-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="7RBB2trw8_pAzwCo_AKe-15" value="Availability zone&lt;div&gt;(two zones)&lt;/div&gt;" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=10;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#545B64;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#545B64;dashed=1;" parent="S0VbNr_1chNx2PSHg-j4-2" vertex="1">
           <mxGeometry x="269" y="54" width="188" height="550" as="geometry" />
         </mxCell>
