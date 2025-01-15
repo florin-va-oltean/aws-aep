@@ -540,6 +540,15 @@
         <mxCell id="8-cb9CJ3NKdED3O_Wl37-8" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="8-cb9CJ3NKdED3O_Wl37-1">
           <mxGeometry x="1493" y="377" width="46" height="43" as="geometry" />
         </mxCell>
+        <mxCell id="ZF3fkbQCZAr5VGmvnGZy-1" value="&lt;font style=&quot;font-size: 24px;&quot; color=&quot;#ffffff&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=15;" vertex="1" parent="8-cb9CJ3NKdED3O_Wl37-1">
+          <mxGeometry x="370" y="190" width="26" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-1" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="8-cb9CJ3NKdED3O_Wl37-1">
+          <mxGeometry x="470" y="570" width="32" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-5" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="8-cb9CJ3NKdED3O_Wl37-1">
+          <mxGeometry x="480" y="70" width="32" height="27" as="geometry" />
+        </mxCell>
         <mxCell id="2qkwXaxatWT-dDYhMNdt-1" value="availability zone" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=10;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#545B64;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#545B64;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="214" y="140" width="376" height="429" as="geometry" />
         </mxCell>
@@ -701,6 +710,63 @@
         </mxCell>
         <mxCell id="PGO2a8iEk9jeLPhNjNv7-1" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="1">
           <mxGeometry x="522" y="790" width="54.6" height="70.19999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF3fkbQCZAr5VGmvnGZy-4" value="Single region, multi AZ memoryDB &amp;nbsp;(valkey) service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="117" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-2" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1197" y="193" width="32" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-3" value="NLB for traffic to/from CSP infrastructure&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="190" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-4" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1197" y="113" width="32" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-6" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1196" y="268.5" width="32" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-7" value="ALB for management http traffic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="265.5" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-8" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="418" y="-90" width="32" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-9" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1197" y="343" width="32" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-10" value="We use AWS services Cognito and OpenSearch; Cognito keeps accounts to connect to management console of the application, while OpenSearch is a backend for OpenTelemetry (Jaeger)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="343" width="309" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-11" value="5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="748" y="433" width="32" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-12" value="5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="238" y="250" width="32" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-13" value="5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1197" y="433" width="32" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-14" value="The only points where traffic enters the system is via management lan and via network lan; these are protected by security groups" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="433" width="309" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-15" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="978" y="410" width="32" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-16" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="358" y="406" width="32" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-17" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6600CC;strokeColor=#82b366;fontSize=24;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1196" y="520" width="32" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="bToYTw5cOaEjDVCgvR7F-18" value="The heavy lifting, the actual real-time logic implementation and processing is done via v-core instances, and they are part of auto-scaling groups" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="517" width="309" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="75JzN1Tn_tcOlt_X3V22-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" edge="1" parent="1" source="75JzN1Tn_tcOlt_X3V22-1" target="8-cb9CJ3NKdED3O_Wl37-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75JzN1Tn_tcOlt_X3V22-1" value="Admin,&amp;nbsp;&lt;div&gt;Designer,&lt;/div&gt;&lt;div&gt;QA team&lt;/div&gt;" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.portal_admin;" vertex="1" parent="1">
+          <mxGeometry x="607.8" y="-260" width="44.4" height="48.8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
